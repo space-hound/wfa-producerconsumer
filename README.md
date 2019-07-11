@@ -1,22 +1,29 @@
 # wfa-producerconsumer
-visual representation of the producer consumer threading problem
 
-</br>
-</br>
+This is a visualization of the [producer-consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) in `C#` made with `Windows Forms Application`.
+ - Can add threads to produce numbers in the queue.
+ - Can add threads to consume numbers in the queue.
+ - Each threads has following options:
+	 - The rate at witch it can produce/consume a number (either fixed or random between an interval).
+	 - Time it take to produce/consume a number (either fixed or random between an interval).
 
----
+<hr>
 
- ### code here
-  - [Looking for code?](src/producer-consumer)
-  
-----
+ - [Code Here!](https://github.com/space-hound/wfa-producerconsumer/tree/master/src/producer-consumer)
+ - [Images Here!](https://github.com/space-hound/wfa-producerconsumer/tree/master/prev)
 
- ### pictures here
-  - [Looking for pics?](prev/)
+<hr>
 
-----
+This is how it looks:
 
-</br>
-</br>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/space-hound/wfa-producerconsumer/master/prev/producerconsumer-prev-2.png" alt="producer thread">
+</p>
 
-`Dec 2018 - Visual Studio Community 2017`
+<p align="center">
+	<img src="https://raw.githubusercontent.com/space-hound/wfa-producerconsumer/master/prev/producerconsumer-prev-3.png" alt="consumer thread">
+</p>
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/space-hound/wfa-producerconsumer/master/prev/producerconsumer-prev-7.gif" alt="preview">
+</p>
